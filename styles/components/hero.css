@@ -1,0 +1,38 @@
+.hero {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	margin-top: 2rem;
+}
+/*Add animations to image?*/
+.hero_img {
+	display: inline;
+	border-radius: 50%;
+	width: 20rem;
+	height: 20rem;
+}
+.hero__name {
+	color: var(--clr-indigo);
+	font-size: 40px;
+	line-height: 0.9;
+	/*Add shadow or elements to name to stand out*/
+}
+
+.hero__caption {
+	color: var(--clr-slate800);
+	line-height: 0.9;
+}
+
+.hero__description{
+	max-width: 60ch;
+	font-size: 15px;
+	color: var(--clr-slate600);
+}
+
+.hero__btn {
+	text-transform: capitalize;
+	font-size: 15px;
+}
